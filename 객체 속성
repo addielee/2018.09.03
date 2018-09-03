@@ -1,0 +1,24 @@
+ * 학생 개인 기록
+
+
+String [] names = new String [26];
+
+int [] args = new int [26];
+
+String [] addrs = new String [26];
+
+String [] phones = new String [26];
+
+
+
+->객체는 여러 속성을 가질 수 있음
+
+
+class Student{   //한 사람의 속성을 한 번에 관리  //VO = DTO
+     String name;
+     int age;
+     String addrs;
+     String phone;
+}
+
+Student st[] = new Student [26];
