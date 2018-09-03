@@ -1,0 +1,11 @@
+public class Integer{
+	public static int parseInt(String s){
+		//기능
+		return 숫자;
+	}
+
+	public static String toString(int i){
+		//기능
+		return 문자열;
+	}
+}
