@@ -1,0 +1,38 @@
+[배열]
+
+int arr [] = int [] arr : 순서 상관 없음
+배열 초기값은 객체라서 null
+
+
+int [] arr = new int[5];
+int [] arr = (new int []) {3,5,7,8};
+int [] arr = {3,5,7,8}; :()생략 가능
+
+
+int [] arr = new int [5] ;
+	-int [] : 배열이라 []
+	-arr : 변수 이름
+	-new int[5] : 배열 생성
+
+->for (int i=0 ,i < arr.length ,i++ ){
+     System.out.print(arr[i]);
+}
+
+값을 지정할 때 []씀. 값을 담을 때는 []쓰지 않고 변수인 arr만 씀
+ex) int arr[]; -> arr 선언
+    아직 값을 담지 않아 null -> 예외 처리
+    arr=new int [3]; ->값 담음(arr에 []쓰지 않기!)
+
+
+
+
+
+
+
+
+
+*배역 or 자료구조에 많이 사용한 반복문을 향상된 for 변경 가능
+
+   for(데이터타입 변수이름 : 반복대상){
+	System.out.print(변수이름);
+   }
